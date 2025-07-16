@@ -44,3 +44,4 @@ const server = http.createServer(app);
 server.listen(4000, () => { //Funcion tipo flecha anonima
   console.log('Servidor escuchando en el puerto 4000');
 });
+

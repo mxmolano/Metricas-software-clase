@@ -1,0 +1,59 @@
+## ─── DEPENDENCIAS ─────────────────────────────────────────────
+node_modules/
+
+## ─── SALIDAS DE COMPILACIÓN / BUILD ───────────────────────────
+dist/
+build/
+out/
+tmp/
+temp/
+
+## ─── ARCHIVOS GENERADOS POR TYPESCRIPT ────────────────────────
+*.js
+*.js.map
+*.d.ts
+*.tsbuildinfo
+
+## ─── LOGS Y ARCHIVOS DE EJECUCIÓN ─────────────────────────────
+logs/
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+pids/
+*.pid
+*.pid.lock
+*.seed
+
+## ─── VARIABLES DE ENTORNO ─────────────────────────────────────
+.env
+.env.local
+.env.*.local
+
+## ─── COBERTURA DE TEST & HERRAMIENTAS ─────────────────────────
+coverage/
+.nyc_output/
+
+## ─── ARCHIVOS ESPECÍFICOS DE SISTEMA / EDITOR ────────────────
+# macOS
+.DS_Store
+# Windows
+Thumbs.db
+# IDEs
+.vscode/
+.idea/
+*.sublime-workspace
+*.sublime-project
+
+## ─── CACHÉS OPCIONALES ────────────────────────────────────────
+.npm/
+jspm_packages/
+
+## ─── ARCHIVOS COMPRIMIDOS O PAQUETES ──────────────────────────
+*.tgz
+*.gz
+*.zip
+
+## ─── LOGS DE PM2 (si usas ese administrador) ─────────────────
+*.pm2.log
